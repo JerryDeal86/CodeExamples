@@ -1,0 +1,18 @@
+#Author: COP1000
+#Date: 10-18-16
+#Description: this program simulates the implementation of arrays using lists
+#in Python. We will limit ourselves to tools that act on "arrays" only
+#no tool or technique specific to list will be used
+#---------------------------------------------------------------------------------
+#
+num = [0,0,0,0,0] # an "array" with 5 entries all set to zero
+i = 0
+while i < 5:
+    num[i] = 7
+    i = i + 1
+#end while
+i = 0
+while i < 5:
+    print(num[i])
+    i = i + 1
+#end while
